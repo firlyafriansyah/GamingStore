@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  padding: 0px 120px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-line {
+  height: 94px;
+  /* background-color: #E7EAF5; */
+  border-right: 1.5px solid #E7EAF5;
+}
