@@ -18,10 +18,10 @@ export default function Hero() {
         </div>
       </div>
       <div className={styles.illustration}>
-        <Image className={styles.image} priority={true} src="/Banner/banner_image.svg" width={599} height={484} alt="banner-image" />
+        <Image className={styles.image} priority={true} src="/Banner/banner_image.png" width={490} height={484} alt="banner-image" />
         <div className={styles["rate-illustration"]}>
           <div className={styles['ri-profile']}>
-            <Image className={styles['ri-image']} src="/Banner/ri_profile.svg" width={40} height={40} alt="ri-profile" />
+            <Image className={styles['ri-image']} src="/Banner/ri_profile.png" width={40} height={40} alt="ri-profile" />
             <div>
               <p className={styles['ri-profile-name']}>Shayna Anne</p>
               <p className={styles['ri-profile-profesion']}>Professional Gamer</p>
@@ -36,7 +36,7 @@ export default function Hero() {
           </div>
         </div>
         <div className={styles['game-illustration']}>
-          <Image className={styles['gi-image']} src='/Banner/gi_image.svg' width={80} height={80} alt="game-illustration" />
+          <Image className={styles['gi-image']} src='/Banner/gi_image.png' width={80} height={80} alt="game-illustration" />
           <p className={styles['gi-title']}>Lann Knight</p>
           <p className={styles['gi-game-name']}>Dota 2</p>
           <div className={styles['gi-new']}>
