@@ -1,0 +1,46 @@
+.container {
+  background-color: #F9FAFF;
+  padding: 80px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand-warpper {
+  width: 344px;
+}
+
+.logo {
+  margin-bottom: 30px;
+}
+
+.description {
+  width: 344px;
+  margin-bottom: 30px;
+  line-height: 1.8;
+  color: #0C145A;
+}
+
+.copyright {
+  color: #0C145A;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 700;
+  color: #0C145A;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  color: #0C145A;
+  margin-bottom: 6px;
+}
+
+.subtitle:hover {
+  color: #4D17E2;
+  text-decoration: underline;
+}

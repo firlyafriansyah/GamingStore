@@ -1,0 +1,21 @@
+.container {
+ width: 31%;
+ min-height: 274px;
+ border-radius: 26px;
+ background-color: #F9FAFF;
+ padding: 30px;
+}
+
+.title {
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #0C145A;
+  line-height: 1.8;
+}
+
+.description {
+  margin-top: 8px;
+  color: #0C145A;
+  line-height: 1.8;
+}

@@ -1,0 +1,10 @@
+.container {
+  margin: 45px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+}

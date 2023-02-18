@@ -1,0 +1,16 @@
+.container {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav-list {
+  color: #7E8CAC;
+  margin: auto 20px;
+}
+
+.active {
+  color: #0C145A;
+  font-weight: 600;
+}
