@@ -33,13 +33,15 @@
 
 .glass-image-game {
   display: none;
+  width: 90%;
+  height: 250px;
+  object-fit: cover;
 }
 
 .wrapper:hover .glass-image-game {
-  border-radius: 35px;
-  position: absolute;
-  top: 10;
   display: block;
+  position: absolute;
+  border-radius: 35px;
 }
 
 .wrapper:hover .glass {
@@ -91,13 +93,12 @@
   border-radius: 26px;
   position: absolute;
   object-fit: cover;
-  object-position: center;
 }
 
 
 .wrapper:hover .game-card {
-  transition: all 0.4s;
   display: none;
+  transition: all 0.4s;
 }
 
 @media screen and (max-width: 800px) {
@@ -109,7 +110,7 @@
   }
 
   .glass-image-game {
-    width: 92% !important;
+    width: 95%;
   }
   
   .game-card {
