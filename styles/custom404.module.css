@@ -1,0 +1,46 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.image {
+  position: inherit;
+  height: 300px;
+  width: 482.76px;
+}
+
+.title {
+  margin-top: 70px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #0C145A;
+  text-align: center;
+}
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  color: #0C145A;
+  text-align: center;
+}
+
+.button {
+  width: 190px;
+} 
+
+@media screen and (max-width: 550px) {
+  .image {
+    position: inherit;
+    height: 180px;
+    width: 289.66px;
+  }
+
+  .button {
+    width: 75%;
+  } 
+}

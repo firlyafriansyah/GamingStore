@@ -77,6 +77,7 @@
   margin-left: 30px;
   text-decoration: underline;
   color: #0C145A;
+  width: 100%;
 }
 
 .illustration {
@@ -213,6 +214,7 @@
   .learn-more {
     margin-left: 0px;
     margin-top: 20px;
+    text-align: center;
   }
 }
 

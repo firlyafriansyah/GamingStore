@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import CustomButton from '../basic_components/Button'
 
-export default function Hero() {
+export default function Hero() {  
   return (
     <div className={styles.container}>
       <div className={styles.slogan}>
@@ -14,7 +14,7 @@ export default function Hero() {
           </div>
         <p className={styles['slogan-description']}>Kami menyediakan jutaan cara untuk membantu players menjadi pemenang sejati</p>
         <div className={styles.action}>
-          <CustomButton width='200px' height={50} color="#FFFFFF" bgColor="#4D17E2" text='Get Started' />
+          <CustomButton width='100%' height={50} color="#FFFFFF" bgColor="#4D17E2" text='Get Started' />
           <Link className={styles['learn-more']} href="/">Learn More</Link>
         </div>
       </div>

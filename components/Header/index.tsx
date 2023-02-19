@@ -21,7 +21,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className={styles['nav-mobile']} style={{height: `${navMobile ? '0px' : '330px'}`}}>
+      <div className={styles['nav-mobile']} style={{height: `${navMobile ? '0px' : '350px'}`}}>
         <Nav />
         <div className={styles['nav-mobile-button']}>
           <CustomButton text="Sign In" width='100%' height={50} bgColor="#E7EAF5" color="#0C145A" />

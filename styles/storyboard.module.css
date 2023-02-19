@@ -84,6 +84,10 @@
   margin-bottom: 30px;
 }
 
+.gap {
+  width: 30%;
+}
+
 @media screen and (max-width: 1250px) {
   .container {
     padding: 0px 40px;

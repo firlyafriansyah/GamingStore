@@ -18,7 +18,7 @@ export default function Storyboard() {
       <div className={styles['story-caption']}>
         <h1 className={styles['story-title']}>Win the battle.<br /> Be the Champion.</h1>
         <p className={styles['story-description']}>Kami menyediakan jutaan cara untuk membantu players menjadi pemenang sejati</p>
-        <CustomButton text='Read Story' width='190px' height={50} bgColor="#E7EAF5" color='#0C145A' />
+        <CustomButton text='Read Story' width='100%' height={50} bgColor="#E7EAF5" color='#0C145A' />
       </div>
     </div>
   )
