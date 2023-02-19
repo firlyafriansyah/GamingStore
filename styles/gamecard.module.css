@@ -33,15 +33,14 @@
 
 .glass-image-game {
   display: none;
-  width: 90%;
+  position: relative;
+  width: 92%;
   height: 250px;
-  object-fit: cover;
 }
 
 .wrapper:hover .glass-image-game {
   display: block;
   position: absolute;
-  border-radius: 35px;
 }
 
 .wrapper:hover .glass {
@@ -90,9 +89,9 @@
 }
 
 .game-card {
-  border-radius: 26px;
+  width: 90%;
+  height: 250px;
   position: absolute;
-  object-fit: cover;
 }
 
 
@@ -110,6 +109,7 @@
   }
 
   .glass-image-game {
+    display: none;
     width: 95%;
   }
   
