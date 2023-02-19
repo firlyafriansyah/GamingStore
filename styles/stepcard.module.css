@@ -19,3 +19,10 @@
   color: #0C145A;
   line-height: 1.8;
 }
+
+@media screen and (max-width: 890px) {
+  .container {
+   width: 100%;
+   margin-bottom: 20px;
+  }  
+}

@@ -13,7 +13,7 @@ export default function GameCard(props: GameCardProps) {
     <div data-aos="fade-up" className={styles.container}>
       <a href="#" className={styles.wrapper}>
         <div className={styles['glass-image']}>
-          <Image className={styles['glass-image-game']} src={image} width={180} height={230} alt="game-card-image" />
+          <Image className={styles['glass-image-game']} src={image} width={180} height={230} alt="game-card-image" priority />
           <div className={styles.glass}>
             <div className={styles['gamepad-wrapper']}>
               <Image src="/Illustration/game_pad.svg" alt='game-pad' width={53.63} height={35.52} />
@@ -24,9 +24,8 @@ export default function GameCard(props: GameCardProps) {
             </div>
           </div>
         </div>
-        <Image className={styles['game-card']} src={image} width={205} height={272} alt="game-card-image" />
+        <Image className={styles['game-card']} src={image} width={205} height={272} alt="game-card-image" priority />
       </a>
     </div>
   )
 }
-                 

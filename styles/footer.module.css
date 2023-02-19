@@ -5,8 +5,14 @@
   justify-content: space-between;
 }
 
-.brand-warpper {
-  width: 344px;
+.brand-wrapper {
+  width: 40%;
+}
+
+.information-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
 }
 
 .logo {
@@ -27,6 +33,7 @@
 .wrapper {
   display: flex;
   flex-direction: column;
+  margin: 20px;
 }
 
 .title {
@@ -43,4 +50,70 @@
 .subtitle:hover {
   color: #4D17E2;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 80px 40px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .brand-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .description {
+    text-align: center;
+    width: 100%;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+  
+  .information-wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .wrapper {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .wrapper {
+    width: 40%;
+  }
+
+  .information-wrapper {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    padding: 80px 20px;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .information-wrapper {
+    justify-content: flex-start;
+  }
 }

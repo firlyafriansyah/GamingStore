@@ -5,7 +5,6 @@
   padding: 0px 100px;
   margin: 100px auto;
   justify-content: center;
-  gap: 4%;
 }
 
 @media screen and (max-width: 1500px) {
@@ -14,9 +13,10 @@
  }
 }
 
-@media screen and (max-width: 1300px) {
- .container {
-  max-width: 100%;
+@media screen and (max-width: 1330px) {
+  .container {
+    max-width: 100%;
+    gap: 0%;
  }
 }
 
@@ -37,7 +37,6 @@
   font-size: 42px;
   font-weight: bold;
   color: #0C145A;
-  width: 500px;
   margin-bottom: 30px;
   position: relative;
 }
@@ -181,4 +180,68 @@
   font-size: 10px;
   color: #fff;
   font-weight: 600;
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    margin: 0px auto;
+    padding: 0px 40px;
+    padding-bottom: 50px;
+  }
+
+  .illustration {
+    display: none;
+  }
+
+  .slogan {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .underline-style-exp, .underline-style-new {
+    display: none;
+  }
+
+  .slogan-main {
+    width: 50%;
+  }
+
+  .action {
+    flex-direction: column;
+  }
+
+  .learn-more {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .slogan-main {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .slogan-main {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .slogan-main {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    margin-top: 25px;
+    padding: 0px 20px;
+    padding-bottom: 50px;
+  }
+
+  .slogan-description {
+    width: auto;
+  }
 }

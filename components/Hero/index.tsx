@@ -9,11 +9,12 @@ export default function Hero() {
       <div className={styles.slogan}>
         <p className={styles['slogan-greeting']}>Halo gamers,</p>
           <div className={styles['slogan-main']}>Topup & Get a New Experience in Gaming
-            <div className={styles['underline-style-exp']} /><div className={styles['underline-style-new']} />
+            <div className={styles['underline-style-exp']} />
+            <div className={styles['underline-style-new']} />
           </div>
         <p className={styles['slogan-description']}>Kami menyediakan jutaan cara untuk membantu players menjadi pemenang sejati</p>
         <div className={styles.action}>
-          <CustomButton width={200} height={50} color="#FFFFFF" bgColor="#4D17E2" text='Get Started' />
+          <CustomButton width='200px' height={50} color="#FFFFFF" bgColor="#4D17E2" text='Get Started' />
           <Link className={styles['learn-more']} href="/">Learn More</Link>
         </div>
       </div>
