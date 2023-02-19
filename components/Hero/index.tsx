@@ -17,7 +17,7 @@ export default function Hero() {
           <Link className={styles['learn-more']} href="/">Learn More</Link>
         </div>
       </div>
-      <div className={styles.illustration}>
+      <div data-aos="zoom-in" className={styles.illustration}>
         <Image className={styles.image} priority={true} src="/Banner/banner_image.png" width={490} height={484} alt="banner-image" />
         <div className={styles["rate-illustration"]}>
           <div className={styles['ri-profile']}>

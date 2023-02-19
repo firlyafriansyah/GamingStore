@@ -12,7 +12,7 @@ export default function StepCard(props: StepCardProps) {
   const {image, title, description} = props;
 
   return (
-    <div className={styles.container}>
+    <div data-aos="fade-up" className={styles.container}>
       <Image src={image} alt="Hiw-Icon" width={60} height={60} />
       <h2 className={styles.title}>{title}</h2>
       <div className={styles.description}>{description}</div>

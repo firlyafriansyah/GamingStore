@@ -10,7 +10,7 @@ interface GameCardProps {
 export default function GameCard(props: GameCardProps) {
   const {image, gameName, platformName} = props;
   return (
-    <div className={styles.container}>
+    <div data-aos="fade-up" className={styles.container}>
       <a href="#" className={styles.wrapper}>
         <div className={styles['glass-image']}>
           <Image className={styles['glass-image-game']} src={image} width={180} height={230} alt="game-card-image" />

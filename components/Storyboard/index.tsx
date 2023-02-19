@@ -5,7 +5,7 @@ import CustomButton from '../basic_components/Button';
 export default function Storyboard() {
   return (
     <div className={styles.container}>
-      <div className={styles['story-image']}>
+      <div data-aos="zoom-in" className={styles['story-image']}>
         <div className={styles['image-wrapper']}>
           <div className={styles['story-image-base']} />
           <Image className={styles['story-image-1']} src="/Image/story_image_3.png" alt="story-image" width={580} height={420} />
