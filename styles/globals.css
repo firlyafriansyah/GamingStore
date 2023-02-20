@@ -16,3 +16,5 @@ a {
   list-style-type: none;
   text-decoration: none;
 }
+
+input, textarea, select { font-family:inherit; }

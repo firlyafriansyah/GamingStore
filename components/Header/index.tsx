@@ -13,7 +13,7 @@ export default function Header() {
         <Image src="/Logo/logo.svg" width={60} height={60} alt="brand-logo" />
         <div className={styles['nav-wrapper']}>
           <Nav />
-          <CustomButton text="Sign In" width="120px" height={50} color="#0C145A" bgColor="#E7EAF5" />
+          <CustomButton text="Sign In" width="120px" height={50} color="#0C145A" bgColor="#E7EAF5" navigation="/signin" />
         </div>
         <div onClick={() => setNavMobile(!navMobile)} className={styles['nav-mobile-wrapper']}>
           <div className={styles['nav-mobile-hamburger']}>
@@ -24,7 +24,7 @@ export default function Header() {
       <div className={styles['nav-mobile']} style={{height: `${navMobile ? '0px' : '350px'}`}}>
         <Nav />
         <div className={styles['nav-mobile-button']}>
-          <CustomButton text="Sign In" width='100%' height={50} bgColor="#E7EAF5" color="#0C145A" />
+          <CustomButton text="Sign In" width='100%' height={50} bgColor="#E7EAF5" color="#0C145A" navigation="/signin" />
         </div>
       </div>
     </>

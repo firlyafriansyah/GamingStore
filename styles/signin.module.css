@@ -1,0 +1,139 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.signin-wrapper {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0C145A;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #0C145A;
+  margin-bottom: 50px;
+}
+
+.signin-illustrator {
+  width: 55%;
+  background-color: #1A1640;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 502px;
+  margin-bottom: 50.79px;
+}
+
+.signin-image-3-blur {
+  margin-top: 125px;
+  width: 406.38px;
+  height: 294.28px;
+  border-radius: 63.18px;
+  background: rgba(196, 196, 196, 0.1); 
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
+
+.signin-image-2-blur {
+  position: absolute;
+  margin-top: 55px;
+  width: 466.14px;
+  height: 337.55px;
+  border-radius: 63.18px;
+  background: rgba(196, 196, 196, 0.1); 
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
+
+.signin-image-1 {
+  position: absolute;
+  border-radius: 63.18px;
+}
+
+.signin-illustrator-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.signin-illustrator-subtitle {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+@media screen and (max-width: 1500px) {
+  .signin {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .signin {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .signin-illustrator {
+    display: none;
+  }
+
+  .signin-wrapper {
+    width: 100%;
+  }
+
+  .signin {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .signin {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .signin {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .signin {
+    width: 90%;
+  }
+}

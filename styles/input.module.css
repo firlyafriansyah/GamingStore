@@ -1,0 +1,19 @@
+.label {
+  font-weight: 600;
+  color: #0C145A;
+}
+
+.input {
+  height: 50px;
+  width: 100%;
+  border: 1px solid #0C145A;
+  border-radius: 100px;
+  color: #0C145A;
+  padding: 10px 26px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.input::placeholder {
+  color: #CCD0DD;
+}
