@@ -12,7 +12,14 @@
   padding: 10px 26px;
   font-size: 18px;
   margin-top: 10px;
+  outline: #4D17E2;
 }
+
+.input:focus {
+  border: 2px solid #4D17E2;
+}
+
+
 
 .input::placeholder {
   color: #CCD0DD;

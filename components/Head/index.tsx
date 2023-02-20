@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 interface HeadCustomProps {
-  title: string
+  title?: string
 }
 
 export default function HeadCustom(props: HeadCustomProps) {

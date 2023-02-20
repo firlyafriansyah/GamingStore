@@ -1,0 +1,88 @@
+.container {
+  width: 100%;
+  padding: 0px 100px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0C145A;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #0C145A;
+  margin-bottom: 50px;
+}
+
+.product-detail-wrapper {
+  width: 100%;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.product-detail-image-wrapper {
+  position: relative;
+  width: 280px;
+  height: 380px;
+  border-radius: 26px;
+}
+
+.product-detail-image {
+  border-radius: 26px;
+  object-fit: cover;
+}
+
+.product-detail {
+  /* width: calc(100% - 500px); */
+  width: 75%;
+  margin-left: 50px;
+}
+
+.title, .tagline {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0C145A;
+  margin-bottom: 10px;
+}
+
+.category {
+  color: #7E8CAC;
+  margin-bottom: 50px;
+}
+
+.line {
+  margin-bottom: 50px;
+}
+
+.verify-input {
+  width: 40%;
+  margin-bottom: 50px;
+}
+
+.topup-title, .payment-title {
+  font-weight: 600;
+  color: #0C145A;
+  margin-bottom: 10px;
+}
+
+.price-card {
+  display: flex;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.payment-card {
+  display: flex;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.bank-account-input {
+  width: 40%;
+  margin-bottom: 50px;
+}
+
+.button-wrapper {
+  width: 170px;
+}
