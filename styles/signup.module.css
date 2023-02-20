@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-wrapper {
+  width: 437px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0C145A;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #0C145A;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .signup-wrapper {
+    width: 90%;
+  }
+}

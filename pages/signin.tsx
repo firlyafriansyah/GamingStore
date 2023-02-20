@@ -2,18 +2,11 @@ import styles from '@/styles/signin.module.css'
 import HeadCustom from "@/components/Head";
 import Image from 'next/image';
 import CustomInput from '@/components/basic_components/Input';
-import {Poppins} from '@next/font/google'
 import CustomButton from '@/components/basic_components/Button';
-
-const poppins = Poppins({
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  style: ['normal', 'italic'],
-  subsets: ['latin']
-})
 
 export default function Signin() {
   return (
-    <main className={poppins.className}>
+    <>
       <HeadCustom title="Sign In - Gaming Store" />
       <div className={styles.container}>
         <div className={styles['signin-wrapper']}>
@@ -36,12 +29,14 @@ export default function Signin() {
           <div className={styles['signin-image-wrapper']}>
             <div className={styles['signin-image-3-blur']} />
             <div className={styles['signin-image-2-blur']} />
-            <Image className={styles['signin-image-1']} src='/Image/story_image_1.png' width={502} height={363.52} alt="signin-image" priority />
+            <div className={styles['signin-image-1-wrapper']}>
+              <Image src='/Image/story_image_1.png' className={styles['signin-image-1']} fill sizes="(max-width: 1100px) 92%, (max-width: 800px) 95%, 90%" alt="signin-image" priority />
+            </div>
           </div>
           <h1 className={styles['signin-illustrator-title']}>Win the battle.<br/>Bet the champion.</h1>
           <p className={styles['signin-illustrator-subtitle']}>Kami menyediakan jutaan cara untuk<br/> membantu players menjadi<br/> pemenang sejati</p>
         </div>
       </div>
-    </main>
+    </>
   )
 }
