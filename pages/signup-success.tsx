@@ -6,7 +6,7 @@ export default function SignupSuccess() {
   return (
     <div className={styles.container}>
       <div className={styles['illustration-wrapper']}>
-        <Image src='/Illustration/wallet.svg' fill alt="wallet-icon" />
+        <Image src='/Illustration/wallet.svg' fill alt="wallet-icon" priority />
       </div>
       <h1 className={styles.title}>Well Done!</h1>
       <p className={styles.subtitle}>Kamu sudah bisa melakukan top up<br/>dan menjadi pemenang!</p>
