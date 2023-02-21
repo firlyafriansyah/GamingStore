@@ -31,17 +31,17 @@ export default function DetailProduct() {
                 <CustomInput label='Verify ID' id='verify-id' type='text' name='verify-id' placeholder='Enter your ID' />
               </div>
               <p className={styles['topup-title']}>Nominal Top Up</p>
-              <div className={styles['price-card']}>
-                <RadioCard title='125' additionalTitle='Gold' subtitle='Rp 3.250.000' />
-                <RadioCard title='225' additionalTitle='Gold' subtitle='Rp 3.250.000' selected />
-                <RadioCard title='350' additionalTitle='Gold' subtitle='Rp 3.250.000' />
-                <RadioCard title='550' additionalTitle='Gold' subtitle='Rp 3.250.000' />
-                <RadioCard title='750' additionalTitle='Gold' subtitle='Rp 3.250.000' />
-              </div>
+              <form className={styles['price-card']}>
+                <RadioCard title='125' additionalTitle='Gold' subtitle='Rp 3.250.000' name='price' />
+                <RadioCard title='225' additionalTitle='Gold' subtitle='Rp 3.250.000' name='price' />
+                <RadioCard title='350' additionalTitle='Gold' subtitle='Rp 3.250.000' name='price' />
+                <RadioCard title='550' additionalTitle='Gold' subtitle='Rp 3.250.000' name='price' />
+                <RadioCard title='750' additionalTitle='Gold' subtitle='Rp 3.250.000' name='price' />
+              </form>
               <p className={styles['payment-title']}>Payment Method</p>
               <div className={styles['payment-card']}>
-                <RadioCard title='Transfer' subtitle='Worldwide accounts' selected />
-                <RadioCard title='VISA' subtitle='Credit Card' />
+                <RadioCard title='Transfer' subtitle='Worldwide accounts' name='payment' />
+                <RadioCard title='VISA' subtitle='Credit Card' name='payment' />
               </div>
               <div className={styles['bank-account-input']}>
                 <CustomInput label='Bank Account Name' id='bank-account' type='text' name='bank-account' placeholder='Enter your bank account name' />

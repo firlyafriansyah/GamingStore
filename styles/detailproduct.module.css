@@ -55,7 +55,7 @@
   margin-bottom: 50px;
 }
 
-.verify-input {
+.verify-input, .bank-account-input {
   width: 40%;
   margin-bottom: 50px;
 }
@@ -78,11 +78,18 @@
   flex-wrap: wrap;
 }
 
-.bank-account-input {
-  width: 40%;
-  margin-bottom: 50px;
-}
-
 .button-wrapper {
   width: 170px;
+}
+
+@media screen and (max-width: 1500px) {
+  .verify-input, .bank-account-input {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .verify-input, .bank-account-input {
+    width: 70%;
+  }
 }

@@ -1,3 +1,7 @@
+.radio-input {
+  display: none;
+}
+
 .container {
   width: 260px;
   height: 131px;
@@ -7,17 +11,12 @@
   padding: 30px;
   margin-bottom: 30px;
   margin-right: 30px;
+  cursor: pointer;
 }
 
-.container-selected {
-  width: 260px;
-  height: 131px;
+.radio-input:checked + .container {
   background-color: rgba(0, 186, 255, .05);
   border: 1px solid #00BAFF;
-  border-radius: 26px;
-  padding: 30px;
-  margin-bottom: 30px;
-  margin-right: 30px;
 }
 
 .title-wrapper {
@@ -36,6 +35,14 @@
   font-size: 28px;
   font-weight: 300;
   color: #0C145A;
+}
+
+.image {
+  display: none;
+}
+
+.radio-input:checked + .container .image {
+  display: block;
 }
 
 .subtitle {

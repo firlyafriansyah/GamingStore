@@ -5,19 +5,23 @@ interface RadioCardProps {
   title: string,
   additionalTitle?: string,
   subtitle: string,
-  selected?: boolean
+  selected?: boolean,
+  name: string
 }
 
 export default function RadioCard(props: RadioCardProps) {
-  const {title, subtitle, additionalTitle, selected = false} = props
+  const {title, subtitle, additionalTitle, selected = false, name} = props
   
   return (
-    <div className={selected ? styles['container-selected'] : styles['container']}>
-      <div className={styles['title-wrapper']}>
-        <h1 className={styles['title-strong']}>{title} <span className={styles['title-light']}>{additionalTitle}</span></h1>
-        <Image style={{display: `${selected ? 'block' : 'none'}`}} src="/Illustration/check_icon.svg" width={20} height={20} alt="check-icon" />
-      </div>
-      <p className={styles.subtitle}>{subtitle}</p>
-    </div>
+    <>
+      <input className={styles['radio-input']} type="radio" name={name} value={title} id={title.trim()} />
+      <label htmlFor={title.trim()} className={styles.container}>
+        <div className={styles['title-wrapper']}>
+          <h1 className={styles['title-strong']}>{title} <span className={styles['title-light']}>{additionalTitle}</span></h1>
+          <Image className={styles.image} src="/Illustration/check_icon.svg" width={20} height={20} alt="check-icon" />
+        </div>
+        <p className={styles.subtitle}>{subtitle}</p>
+      </label>
+    </>
   )
 }
