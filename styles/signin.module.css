@@ -2,7 +2,6 @@
   width: 100%;
   min-height: 100vh;
   display: flex;
-  padding: 30px 0px;
 }
 
 .signin-wrapper {
@@ -10,6 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 30px 0px;
 }
 
 .signin {
@@ -50,7 +50,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 80%;
   margin-bottom: 30px;
 }
 
