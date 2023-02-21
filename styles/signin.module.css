@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .logo {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .title {
@@ -32,7 +32,7 @@
 
 .description {
   color: #0C145A;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .signin-illustrator {
@@ -46,16 +46,17 @@
 }
 
 .signin-image-wrapper {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 502px;
-  margin-bottom: 50.79px;
+  width: 90%;
+  margin-bottom: 30px;
 }
 
 .signin-image-3-blur {
   margin-top: 125px;
-  width: 406.38px;
+  width: 80%;
   height: 294.28px;
   border-radius: 63.18px;
   background: rgba(196, 196, 196, 0.1); 
@@ -67,7 +68,7 @@
 .signin-image-2-blur {
   position: absolute;
   margin-top: 55px;
-  width: 466.14px;
+  width: 90%;
   height: 337.55px;
   border-radius: 63.18px;
   background: rgba(196, 196, 196, 0.1); 
@@ -78,7 +79,7 @@
 
 .signin-image-1-wrapper {
   position: absolute;
-  width: 502px;
+  width: 100%;
   height: 363.51px;
   border-radius: 63.18px;
 }
@@ -92,7 +93,7 @@
   font-weight: bold;
   color: #FFFFFF;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .signin-illustrator-subtitle {
@@ -135,11 +136,5 @@
 @media screen and (max-width: 620px) {
   .signin {
     width: 80%;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .signin {
-    width: 90%;
   }
 }
