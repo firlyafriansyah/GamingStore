@@ -2,11 +2,11 @@
   width: 100%;
   min-height: 100vh;
   display: flex;
+  padding: 30px 0px;
 }
 
 .signin-wrapper {
   width: 45%;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
