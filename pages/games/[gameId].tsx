@@ -19,13 +19,22 @@ export default function DetailProduct() {
           <h1 className={styles.title}>Top Up</h1>
           <p className={styles.subtitle}>Perkuat akun dan jadilah pemenang</p>
           <div className={styles['product-detail-wrapper']}>
-            <div className={styles['product-detail-image-wrapper']}>
-              <Image className={styles['product-detail-image']} src='/Illustration/game_card_3.png' fill alt="game-card" priority />
+            <div className={styles['game-wrapper']}>
+              <div className={styles['product-detail-image-wrapper']}>
+                <Image className={styles['product-detail-image']} src='/Illustration/game_card_3.png' fill alt="game-card" priority />
+              </div>
+              <div className={styles['title-wrapper-mobile']}>
+                <h1 className={styles.title}>Mobile Legends:</h1>
+                <h1 className={styles.tagline}>The New Battle 2021</h1>
+                <p className={styles.category}>Category: Mobile</p>
+              </div>
             </div>
             <div className={styles['product-detail']}>
-              <h1 className={styles.title}>Mobile Legends:</h1>
-              <h1 className={styles.tagline}>The New Battle 2021</h1>
-              <p className={styles.category}>Category: Mobile</p>
+              <div className={styles['title-wrapper-desktop']}>
+                <h1 className={styles.title}>Mobile Legends:</h1>
+                <h1 className={styles.tagline}>The New Battle 2021</h1>
+                <p className={styles.category}>Category: Mobile</p>
+              </div>
               <hr className={styles.line} />
               <div className={styles['verify-input']}>
                 <CustomInput label='Verify ID' id='verify-id' type='text' name='verify-id' placeholder='Enter your ID' />

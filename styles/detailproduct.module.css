@@ -33,8 +33,15 @@
   object-fit: cover;
 }
 
+.title-wrapper-mobile {
+  display: none;
+}
+
+.title-wrapper-desktop {
+  display: block;
+}
+
 .product-detail {
-  /* width: calc(100% - 500px); */
   width: 75%;
   margin-left: 50px;
 }
@@ -92,4 +99,71 @@
   .verify-input, .bank-account-input {
     width: 70%;
   }
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    padding: 0px 40px;
+  }
+
+  .product-detail-wrapper {
+    flex-direction: column;
+  }
+
+  .game-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 50px;
+    align-items: center;
+  }
+
+  .product-detail-image-wrapper {
+    margin-right: 50px;
+    width: 205px;
+    height: 250px;
+  }
+
+  .product-detail {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .category {
+    margin-bottom: 0px;
+  }
+
+  .title-wrapper-mobile {
+    display: block;
+  }
+  
+  .title-wrapper-desktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .verify-input {
+    width: 100%;
+  }
+
+  .bank-account-input {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  /* .product-detail-image-wrapper {
+    width: 110px;
+    height: 140px;
+    margin-right: 20px;
+  }
+
+  .title, .tagline {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0C145A;
+    margin-bottom: 10px;
+  } */
+  
 }

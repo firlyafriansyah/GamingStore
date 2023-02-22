@@ -12,7 +12,7 @@ export default function HeadCustom(props: HeadCustomProps) {
       <title>{title}</title>
       <meta name="description" content="Best gaming store in the world." />
       <meta name="robots" content="index, follow" />
-      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+      <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="apple-touch-icon" sizes="57x57" href="/Favicon/apple-icon-57x57.png" />
       <link rel="apple-touch-icon" sizes="60x60" href="/Favicon/apple-icon-60x60.png" />
@@ -23,6 +23,8 @@ export default function HeadCustom(props: HeadCustomProps) {
       <link rel="apple-touch-icon" sizes="144x144" href="/Favicon/apple-icon-144x144.png" />
       <link rel="apple-touch-icon" sizes="152x152" href="/Favicon/apple-icon-152x152.png" />
       <link rel="apple-touch-icon" sizes="180x180" href="/Favicon/apple-icon-180x180.png" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+      <link rel="icon" type="image/png" sizes="144x144"  href="/Favicon/android-icon-144x144.png" />
       <link rel="icon" type="image/png" sizes="192x192"  href="/Favicon/android-icon-192x192.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/Favicon/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="96x96" href="/Favicon/favicon-96x96.png" />

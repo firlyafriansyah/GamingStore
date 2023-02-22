@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px 0px;
+  padding: 30px;
 }
 
 .upload-wrapper {
@@ -87,6 +87,6 @@
 
 @media screen and (max-width: 500px) {
   .game-favorite-container {
-    width: 80%;
+    width: 90%;
   }
 }
