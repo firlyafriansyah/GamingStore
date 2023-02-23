@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       <HeadCustom title="Gaming Store - Firly Afriansyah" />
-      <Layout>
+      <Layout selected="home" >
         <Hero />
         <HowItWorks />
         <Featured />

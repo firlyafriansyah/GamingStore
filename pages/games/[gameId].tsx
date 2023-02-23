@@ -14,7 +14,7 @@ export default function DetailProduct() {
   return (
     <>
     <HeadCustom title={ gameId?.toString().split('-').map((a) => a.charAt(0).toUpperCase() + a.slice(1)).join(' ') + ' - Product Detail || Gaming Store' } />
-      <Layout>
+      <Layout selected='games'>
         <div className={styles.container}>
           <h1 className={styles.title}>Top Up</h1>
           <p className={styles.subtitle}>Perkuat akun dan jadilah pemenang</p>

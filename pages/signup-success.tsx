@@ -14,7 +14,7 @@ export default function SignupSuccess() {
         <h1 className={styles.title}>Well Done!</h1>
         <p className={styles.subtitle}>Kamu sudah bisa melakukan top up<br/>dan menjadi pemenang!</p>
         <div className={styles['button-wrapper']}>
-          <CustomButton text='Top Up' width='100%' height={50} bgColor='#4D17E2' color='#ffffff' navigation='/' />
+          <CustomButton text='Top Up' width='100%' height={50} bgColor='#4D17E2' color='#ffffff' navigation='/games' />
         </div>
       </div>
     </>

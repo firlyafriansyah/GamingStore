@@ -34,7 +34,7 @@
 .glass-image-game {
   display: none;
   position: relative;
-  width: 92%;
+  width: 90%;
   height: 250px;
 }
 
@@ -109,11 +109,17 @@
   }
 
   .glass-image-game {
-    display: none;
     width: 95%;
+    display: none;
   }
   
   .game-card {
     width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .glass-image-game {
+    width: 90%;
   }
 }

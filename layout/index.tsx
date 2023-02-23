@@ -3,15 +3,16 @@ import Header from "@/components/Header";
 import { ReactNode } from "react";
 
 interface LayoutProps {
-  children: ReactNode
+  children: ReactNode,
+  selected: string
 }
 
 export default function Layout(props: LayoutProps) {
-  const {children} = props
+  const {children, selected} = props
   
   return (
     <>
-      <Header />
+      <Header selected={selected} />
       <div>{children}</div>
       <Footer />
     </>
