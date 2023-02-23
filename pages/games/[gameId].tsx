@@ -21,7 +21,7 @@ export default function DetailProduct() {
           <div className={styles['product-detail-wrapper']}>
             <div className={styles['game-wrapper']}>
               <div className={styles['product-detail-image-wrapper']}>
-                <Image className={styles['product-detail-image']} src='/Illustration/game_card_3.png' fill alt="game-card" priority />
+                <Image className={styles['product-detail-image']} src='/Illustration/game_card_3.png' fill sizes="(max-width: 1100px) 92%, (max-width: 800px) 95%, 90%" alt="game-card" priority />
               </div>
               <div className={styles['title-wrapper-mobile']}>
                 <h1 className={styles.title}>Mobile Legends:</h1>
@@ -41,16 +41,30 @@ export default function DetailProduct() {
               </div>
               <p className={styles['topup-title']}>Nominal Top Up</p>
               <form className={styles['price-card']}>
-                <RadioCard title='125' additionalTitle='Gold' subtitle='Rp 3.250.000' name='price' />
-                <RadioCard title='225' additionalTitle='Gold' subtitle='Rp 3.250.000' name='price' />
-                <RadioCard title='350' additionalTitle='Gold' subtitle='Rp 3.250.000' name='price' />
-                <RadioCard title='550' additionalTitle='Gold' subtitle='Rp 3.250.000' name='price' />
-                <RadioCard title='750' additionalTitle='Gold' subtitle='Rp 3.250.000' name='price' />
+                <div className={styles['card-wrapper']}>
+                  <RadioCard title='125' additionalTitle='Gold' subtitle='Rp 3.250.000' name='price' />
+                </div>
+                <div className={styles['card-wrapper']}>
+                  <RadioCard title='225' additionalTitle='Gold' subtitle='Rp 3.250.000' name='price' />
+                </div>
+                <div className={styles['card-wrapper']}>
+                  <RadioCard title='350' additionalTitle='Gold' subtitle='Rp 3.250.000' name='price' />
+                </div>
+                <div className={styles['card-wrapper']}>
+                  <RadioCard title='550' additionalTitle='Gold' subtitle='Rp 3.250.000' name='price' />
+                </div>
+                <div className={styles['card-wrapper']}>
+                  <RadioCard title='750' additionalTitle='Gold' subtitle='Rp 3.250.000' name='price' />
+                </div>
               </form>
               <p className={styles['payment-title']}>Payment Method</p>
               <div className={styles['payment-card']}>
-                <RadioCard title='Transfer' subtitle='Worldwide accounts' name='payment' />
-                <RadioCard title='VISA' subtitle='Credit Card' name='payment' />
+                <div className={styles['card-wrapper']}>
+                  <RadioCard title='Transfer' subtitle='Worldwide accounts' name='payment' />
+                </div>
+                <div className={styles['card-wrapper']}>
+                  <RadioCard title='VISA' subtitle='Credit Card' name='payment' />
+                </div>
               </div>
               <div className={styles['bank-account-input']}>
                 <CustomInput label='Bank Account Name' id='bank-account' type='text' name='bank-account' placeholder='Enter your bank account name' />

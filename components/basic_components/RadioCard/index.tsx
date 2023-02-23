@@ -5,12 +5,11 @@ interface RadioCardProps {
   title: string,
   additionalTitle?: string,
   subtitle: string,
-  selected?: boolean,
   name: string
 }
 
 export default function RadioCard(props: RadioCardProps) {
-  const {title, subtitle, additionalTitle, selected = false, name} = props
+  const {title, subtitle, additionalTitle, name} = props
   
   return (
     <>

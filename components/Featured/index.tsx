@@ -11,6 +11,7 @@ export default function Featured() {
         <GameCard image='/Illustration/game_card_3.png' gameName='Mobile Legends' platformName='Mobile' href='/games/mobile-legends' />
         <GameCard image='/Illustration/game_card_4.png' gameName='Clash of Clans' platformName='Mobile' href='/games/clash-of-clans' />
         <GameCard image='/Illustration/game_card_5.png' gameName='Valorant' platformName='Desktop' href='/games/valorant' />
+        <GameCard image='/Illustration/game_card_1.png' gameName='Read More' platformName='' href='/games' />
       </div>
     </div>
   )
