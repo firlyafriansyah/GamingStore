@@ -1,13 +1,13 @@
 import styles from '@/styles/games.module.css'
 import GameCard from "@/components/basic_components/GameCard";
-import Layout from "@/layout";
+import LaningPageLayout from "@/layout/LandingPage";
 import HeadCustom from '@/components/Head';
 
 export default function Games() {
   return (
     <>
     <HeadCustom title="Games Collection - Gaming Store" />
-      <Layout selected="games">
+      <LaningPageLayout selected="games">
         <div className={styles.container}>
           <h1 className={styles.title}>Select your game</h1>
           <div className={styles['card-wrapper']}>
@@ -38,7 +38,7 @@ export default function Games() {
             <GameCard image='/Illustration/game_card_5.png' gameName='Valorant' platformName='Desktop' href='/games/valorant' />
           </div>
         </div>
-      </Layout>
+      </LaningPageLayout>
     </>
   )
 }

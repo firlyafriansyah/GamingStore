@@ -4,7 +4,7 @@ import HeadCustom from "@/components/Head";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import Storyboard from "@/components/Storyboard";
-import Layout from "@/layout";
+import LandingPageLayout from "@/layout/LandingPage";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -19,13 +19,13 @@ export default function Home() {
   return (
     <>
       <HeadCustom title="Gaming Store - Firly Afriansyah" />
-      <Layout selected="home" >
+      <LandingPageLayout selected="home" >
         <Hero />
         <HowItWorks />
         <Featured />
         <Achievment />
         <Storyboard />
-      </Layout>
+      </LandingPageLayout>
     </>
   )
 }

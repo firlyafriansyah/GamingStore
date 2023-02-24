@@ -2,12 +2,12 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { ReactNode } from "react";
 
-interface LayoutProps {
+interface LandingPageLayoutProps {
   children: ReactNode,
   selected: string
 }
 
-export default function Layout(props: LayoutProps) {
+export default function LandingPageLayout(props: LandingPageLayoutProps) {
   const {children, selected} = props
   
   return (

@@ -2,7 +2,7 @@ import CustomButton from '@/components/basic_components/Button'
 import CustomInput from '@/components/basic_components/Input'
 import RadioCard from '@/components/basic_components/RadioCard'
 import HeadCustom from '@/components/Head'
-import Layout from '@/layout'
+import LaningPageLayout from '@/layout/LandingPage'
 import styles from '@/styles/detailproduct.module.css'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
@@ -14,7 +14,7 @@ export default function DetailProduct() {
   return (
     <>
     <HeadCustom title={ gameId?.toString().split('-').map((a) => a.charAt(0).toUpperCase() + a.slice(1)).join(' ') + ' - Product Detail || Gaming Store' } />
-      <Layout selected='games'>
+      <LaningPageLayout selected='games'>
         <div className={styles.container}>
           <h1 className={styles.title}>Top Up</h1>
           <p className={styles.subtitle}>Perkuat akun dan jadilah pemenang</p>
@@ -75,7 +75,7 @@ export default function DetailProduct() {
             </div>
           </div>
         </div>
-      </Layout>
+      </LaningPageLayout>
     </>
   )
 }
