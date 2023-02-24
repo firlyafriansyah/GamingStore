@@ -3,7 +3,7 @@ import CustomInput from '@/components/basic_components/Input'
 import RadioCard from '@/components/basic_components/RadioCard'
 import HeadCustom from '@/components/Head'
 import LaningPageLayout from '@/layout/LandingPage'
-import styles from '@/styles/detailproduct.module.css'
+import styles from '@/styles/pages/detailproduct.module.css'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 

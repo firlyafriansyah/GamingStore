@@ -1,5 +1,5 @@
 import CustomButton from '@/components/basic_components/Button';
-import styles from '@/styles/custom404.module.css'
+import styles from '@/styles/pages/custom404.module.css'
 import Image from "next/image";
 
 export default function Custom404() {

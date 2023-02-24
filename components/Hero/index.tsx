@@ -1,4 +1,4 @@
-import styles from '@/styles/hero.module.css'
+import styles from '@/styles/components/hero.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import CustomButton from '../basic_components/Button'

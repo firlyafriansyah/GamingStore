@@ -1,4 +1,4 @@
-import styles from '@/styles/achievment.module.css'
+import styles from '@/styles/components/achievment.module.css'
 import AchievItem from '../basic_components/AchievItem'
 
 export default function Achievment() {

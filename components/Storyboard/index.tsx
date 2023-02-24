@@ -1,4 +1,4 @@
-import styles from '@/styles/storyboard.module.css'
+import styles from '@/styles/components/storyboard.module.css'
 import Image from "next/image";
 import CustomButton from '../basic_components/Button';
 

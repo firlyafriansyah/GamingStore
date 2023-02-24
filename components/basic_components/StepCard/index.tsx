@@ -1,4 +1,4 @@
-import styles from '@/styles/stepcard.module.css'
+import styles from '@/styles/components/basic/stepcard.module.css'
 import Image from 'next/image'
 import { ReactNode } from 'react';
 

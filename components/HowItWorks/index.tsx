@@ -1,4 +1,4 @@
-import styles from '@/styles/howitworks.module.css'
+import styles from '@/styles/components/howitworks.module.css'
 import StepCard from "../basic_components/StepCard";
 
 export default function HowItWorks() {

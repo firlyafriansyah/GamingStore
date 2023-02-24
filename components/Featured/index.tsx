@@ -1,4 +1,4 @@
-import styles from '@/styles/featured.module.css'
+import styles from '@/styles/components/featured.module.css'
 import GameCard from "../basic_components/GameCard";
 
 export default function Featured() {

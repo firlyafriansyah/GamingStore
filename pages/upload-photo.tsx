@@ -1,6 +1,6 @@
 import CustomButton from '@/components/basic_components/Button'
 import HeadCustom from '@/components/Head'
-import styles from '@/styles/uploadphoto.module.css'
+import styles from '@/styles/pages/uploadphoto.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 

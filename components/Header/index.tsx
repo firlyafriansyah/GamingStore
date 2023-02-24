@@ -1,4 +1,4 @@
-import styles from "@/styles/header.module.css"
+import styles from "@/styles/components/header.module.css"
 import Image from "next/image";
 import { useState } from "react";
 import CustomButton from "../basic_components/Button";

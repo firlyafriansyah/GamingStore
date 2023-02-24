@@ -1,4 +1,4 @@
-import styles from '@/styles/radiocard.module.css'
+import styles from '@/styles/components/basic/radiocard.module.css'
 import Image from 'next/image'
 
 interface RadioCardProps {

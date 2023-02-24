@@ -1,7 +1,7 @@
 import CustomButton from '@/components/basic_components/Button'
 import CustomInput from '@/components/basic_components/Input'
 import HeadCustom from '@/components/Head'
-import styles from '@/styles/signup.module.css'
+import styles from '@/styles/pages/signup.module.css'
 import Image from 'next/image'
 
 export default function Signup() {

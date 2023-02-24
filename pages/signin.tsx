@@ -1,4 +1,4 @@
-import styles from '@/styles/signin.module.css'
+import styles from '@/styles/pages/signin.module.css'
 import HeadCustom from "@/components/Head";
 import Image from 'next/image';
 import CustomInput from '@/components/basic_components/Input';

@@ -1,5 +1,5 @@
 import CustomButton from '@/components/basic_components/Button'
-import styles from '@/styles/signupsuccess.module.css'
+import styles from '@/styles/pages/signupsuccess.module.css'
 import HeadCustom from '@/components/Head'
 import Image from 'next/image'
 

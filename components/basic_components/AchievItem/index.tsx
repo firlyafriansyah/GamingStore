@@ -1,4 +1,4 @@
-import styles from '@/styles/achievitem.module.css'
+import styles from '@/styles/components/basic/achievitem.module.css'
 
 interface AchievItemProps {
   title: string,

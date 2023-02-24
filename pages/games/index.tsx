@@ -1,4 +1,4 @@
-import styles from '@/styles/games.module.css'
+import styles from '@/styles/pages/games.module.css'
 import GameCard from "@/components/basic_components/GameCard";
 import LaningPageLayout from "@/layout/LandingPage";
 import HeadCustom from '@/components/Head';

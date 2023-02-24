@@ -1,4 +1,4 @@
-import styles from '@/styles/button.module.css'
+import styles from '@/styles/components/basic/button.module.css'
 import Router from 'next/router';
 
 interface ButtonProps {

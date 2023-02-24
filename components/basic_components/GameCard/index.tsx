@@ -1,4 +1,4 @@
-import styles from '@/styles/gamecard.module.css'
+import styles from '@/styles/components/basic/gamecard.module.css'
 import Image from "next/image";
 import Link from 'next/link';
 
