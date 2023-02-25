@@ -1,11 +1,11 @@
-import styles from '@/styles/components/basic/nav.module.css'
+import styles from '@/styles/components/basic/navlandingpage.module.css'
 import Link from 'next/link'
 
-interface NavProps {
+interface NavLandingPageProps {
   selected: string
 }
 
-export default function Nav(props: NavProps) {
+export default function NavLandingPage(props: NavLandingPageProps) {
   const { selected } = props
 
   return (

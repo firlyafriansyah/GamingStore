@@ -1,0 +1,126 @@
+.container {
+  width: 290px;
+  background-color: #FFFFFF;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.container-mobile {
+  display: none;
+  width: 290px;
+  background-color: #FFFFFF;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+}
+
+.humburger-wrapper, .humburger-wrapper-active {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 56px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+
+.humburger-icon-wrapper {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+
+}
+
+.profile-wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.profile-image-wrapper {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0C145A;
+  margin-bottom: 4px;
+}
+
+.profile-email {
+  color: #7E8CAC;
+  margin-bottom: 2px;
+}
+
+.nav-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button-wrapper {
+  display: block;
+  position: absolute;
+  bottom: 50px;
+  width: 250px;
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    display: none;
+  }
+
+  .container-mobile {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    transition: all 0.4s;
+  }
+
+  .container-active {
+    position: absolute;
+    width: 290px;
+    min-height: 100vh;
+    padding: 30px;
+  }
+  
+  .humburger-wrapper {
+    display: block;
+  }
+
+  .humburger-wrapper-active {
+    display: block;
+    z-index: 99;
+    top: 20px;
+    left: 220px;
+  }
+}
+
+@media screen and (max-height: 820px) {
+  .button-wrapper {
+    margin-top: 30px;
+    position: unset;
+    width: 230px;
+    margin-bottom: 20px;
+  }
+}

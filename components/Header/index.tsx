@@ -2,7 +2,7 @@ import styles from "@/styles/components/header.module.css"
 import Image from "next/image";
 import { useState } from "react";
 import CustomButton from "../basic_components/Button";
-import Nav from "../basic_components/Nav";
+import NavLandingPage from "../basic_components/NavLandingPage";
 
 interface HeaderProps {
   selected: string
@@ -17,7 +17,7 @@ export default function Header(props: HeaderProps) {
       <div className={styles.container}>
         <Image src="/Logo/logo.svg" width={60} height={60} alt="brand-logo" />
         <div className={styles['nav-wrapper']}>
-          <Nav selected={selected} />
+          <NavLandingPage selected={selected} />
           <CustomButton text="Sign In" width="120px" height={50} color="#0C145A" bgColor="#E7EAF5" navigation="/signin" />
         </div>
         <div onClick={() => setNavMobile(!navMobile)} className={styles['nav-mobile-wrapper']}>
@@ -27,7 +27,7 @@ export default function Header(props: HeaderProps) {
         </div>
       </div>
       <div className={styles['nav-mobile']} style={{height: `${navMobile ? '0px' : '350px'}`}}>
-        <Nav selected={selected} />
+        <NavLandingPage selected={selected} />
         <div className={styles['nav-mobile-button']}>
           <CustomButton text="Sign In" width='100%' height={50} bgColor="#E7EAF5" color="#0C145A" navigation="/signin" />
         </div>

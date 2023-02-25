@@ -1,0 +1,28 @@
+.container {
+  padding: 50px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0C145A;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0C145A;
+  margin-bottom: 14px;
+}
+
+.card-category-wrapper {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    margin-top: 70px;
+  }
+}
