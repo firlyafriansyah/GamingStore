@@ -53,7 +53,7 @@
 }
 
 .item-wrapper, .price-wrapper, .status-wrapper, .action-wrapper {
-  min-width: 110px;
+  width: 110px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,7 +64,7 @@
   color: #0C145A;
   font-weight: 600;
   text-align: center;
-  min-width: 110px;
+  width: 110px;
 }
 
 .dot {

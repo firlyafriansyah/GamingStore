@@ -9,6 +9,7 @@
 
 .wrapper {
   padding: 50px;
+  display: grid;
   width: 100%;
 }
 
@@ -33,10 +34,12 @@
 }
 
 .table-transactions {
-  display: inline-block;
+  display: inherit;
+  max-width: 1130px;
   padding: 20px 30px;
   background-color: #FFFFFF;
   border-radius: 16px;
+  overflow-x: auto;
 }
 
 .table-head-wrapper {
@@ -49,19 +52,21 @@
 }
 
 .table-head-game {
-  min-width: 230px;
+  width: 230px;
   font-size: 16px;
   color: #0C145A;
 }
 
 .table-head {
-  min-width: 110px;
+  width: 110px;
   text-align: center;
+  font-size: 16px;
+  color: #0C145A;
 }
 
-@media screen and (max-width: 1000px) {
-  .container {
-    margin-top: 70px;
+@media screen and (max-width: 1100px) {
+  .wrapper {
+    padding: 120px 50px 50px;
   }
 
   .gap {
@@ -69,8 +74,8 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .wrapper {
-    padding: 20px;
+    padding: 80px 30px 30px;
   }
 }

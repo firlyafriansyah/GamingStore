@@ -1,5 +1,5 @@
 import CategoryCard from '@/components/basic_components/CategoryCard';
-import TableTransactions from '@/components/basic_components/TableTransactions';
+import ItemTable from '@/components/basic_components/ItemTable';
 import MemberPageLayout from "@/layout/MemberPage";
 import styles from '@/styles/pages/memberoverview.module.css';
 
@@ -30,9 +30,11 @@ export default function MemberOverview() {
               <p className={styles['table-head']}>Action</p>
             </div>
             <div>
-              <TableTransactions />
-              <TableTransactions />
-              <TableTransactions />
+              <ItemTable />
+              <ItemTable />
+              <ItemTable />
+              <ItemTable />
+              <ItemTable />
             </div>
           </div>
         </div>
