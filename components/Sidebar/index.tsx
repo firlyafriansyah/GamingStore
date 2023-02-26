@@ -22,7 +22,7 @@ export default function Sidebar(props: SidebarProps) {
       <div className={styles.container}>
         <div className={styles['profile-wrapper']}>
           <div className={styles['profile-image-wrapper']}>
-            <Image className={styles['profile-image']} src="/Banner/ri_profile.png" fill sizes="(max-width: 1100px) 92%, (max-width: 800px) 95%, 90%" alt="Image Profile" />
+            <Image className={styles['profile-image']} src="/Banner/ri_profile.png" fill sizes="(max-width: 1100px) 92%, (max-width: 800px) 95%, 90%" alt="Image Profile" priority />
           </div>
           <h1 className={styles['profile-name']}>Shayna Anne</h1>
           <p className={styles['profile-email']}>shayna@anne.com</p>
@@ -43,7 +43,7 @@ export default function Sidebar(props: SidebarProps) {
       <div className={styles['container-mobile']} style={{width: `${showSidebar ? '290px' : '0px'}`, padding: `${showSidebar ? '30px' : '30px 0px'}`}} >
         <div className={styles['profile-wrapper']}>
           <div className={styles['profile-image-wrapper']}>
-            <Image className={styles['profile-image']} src="/Banner/ri_profile.png" fill sizes="(max-width: 1100px) 92%, (max-width: 800px) 95%, 90%" alt="Image Profile" />
+            <Image className={styles['profile-image']} src="/Banner/ri_profile.png" fill sizes="(max-width: 1100px) 92%, (max-width: 800px) 95%, 90%" alt="Image Profile" priority />
           </div>
           <h1 className={styles['profile-name']}>Shayna Anne</h1>
           <p className={styles['profile-email']}>shayna@anne.com</p>

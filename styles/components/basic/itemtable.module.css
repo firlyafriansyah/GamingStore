@@ -56,19 +56,17 @@
   width: 110px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .item-text, .price-text, .status-wrapper {
   font-size: 16px;
   color: #0C145A;
   font-weight: 600;
-  text-align: center;
   width: 110px;
 }
 
 .dot {
   font-size: 24px;
   margin-right: 4px;
-  color: #FEBD57;
 }
