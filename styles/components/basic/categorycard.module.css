@@ -5,6 +5,7 @@
   border-radius: 16px;
   padding: 30px;
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .category {
@@ -34,4 +35,11 @@
   font-size: 22px;
   font-weight: 600;
   color: #0C145A;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: 100%;
+    margin-right: 0px;
+  }
 }
