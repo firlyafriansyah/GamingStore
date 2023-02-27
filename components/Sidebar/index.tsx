@@ -40,6 +40,7 @@ export default function Sidebar(props: SidebarProps) {
           <CustomButton width="100%" text="Top Up" height={45} color="#FFFFFF" navigation="/games"/>
         </div>
       </div>
+      {/* mobile sidebar */}
       <div className={styles['container-mobile']} style={{width: `${showSidebar ? '290px' : '0px'}`, padding: `${showSidebar ? '30px' : '30px 0px'}`}} >
         <div className={styles['profile-wrapper']}>
           <div className={styles['profile-image-wrapper']}>

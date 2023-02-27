@@ -121,11 +121,23 @@
 }
 
 @media screen and (max-height: 820px) {
-  .button-wrapper {
-    margin-top: 30px;
-    position: unset;
-    width: 230px;
-    margin-bottom: 20px;
+  .nav-wrapper {
+    height: 350px;
+    z-index: 1;
+    overflow-y: auto;
+  }
+}
+
+@media screen and (max-height: 750px) {
+  .nav-wrapper {
+    height: 300px;
+  }
+}
+
+
+@media screen and (max-height: 700px) {
+  .nav-wrapper {
+    height: 250px;
   }
 }
 
@@ -133,5 +145,23 @@
   .humburger-wrapper {
     top: 30px;
     left: 30px;
+  }
+}
+
+@media screen and (max-height: 650px) {
+  .nav-wrapper {
+    height: 200px;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .nav-wrapper {
+    height: 150px;
+  }
+}
+
+@media screen and (max-height: 550px) {
+  .nav-wrapper {
+    height: 100px;
   }
 }

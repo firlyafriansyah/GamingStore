@@ -13,7 +13,7 @@ export default function MemberPageLayout(props: MemberPageLayoutProps) {
   return (
     <>
       <HeadCustom title='Member - Gaming Store' />
-      <div className={styles.container}>
+      <div className={`${styles.container} member-container`}>
         <Sidebar selected={selected} />
         <div>{children}</div>
       </div>

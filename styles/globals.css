@@ -29,3 +29,51 @@ a {
 }
 
 input, textarea, select { font-family:inherit; }
+
+.warning {
+  display: none;
+}
+
+@media screen and (max-height: 500px) {
+  body {
+    background-color: #FBFCFD;
+  }
+
+  .warning {  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 20%;
+    border-radius: 16px;
+    padding: 30px;
+  }
+
+  .member-container {
+    display: none;
+  }
+
+  .image-warning-wrapper {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .warning-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0C145A;
+    margin-bottom: 10px;
+  }
+  
+  .warning-information {
+    text-align: center;
+    color: #0C145A;
+  }
+}
