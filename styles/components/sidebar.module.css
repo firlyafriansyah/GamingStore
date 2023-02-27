@@ -2,7 +2,6 @@
   width: 290px;
   min-height: 100vh;
   background-color: #FFFFFF;
-  padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +12,6 @@
   display: none;
   width: 290px;
   background-color: #FFFFFF;
-  padding: 30px;
   flex-direction: column;
   align-items: center;
   position: relative;
@@ -41,11 +39,10 @@
 }
 
 .profile-wrapper {
-  margin-top: 20px;
+  margin: 40px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 50px;
 }
 
 .profile-image-wrapper {
@@ -79,11 +76,37 @@
   align-items: flex-start;
 }
 
-.button-wrapper {
-  display: block;
-  position: absolute;
-  bottom: 50px;
+.topup-wrapper {
+  bottom: 30px;
+  padding: 20px;
   width: 230px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #F9FAFF;
+  border-radius: 16px;
+}
+
+.topup-content {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.topup-image-wrapper {
+  position: relative;
+  min-width: 50px;
+  height: 50px;
+  margin-right: 16px;
+}
+
+.topup-image {
+  object-fit: cover;
+}
+
+.topup-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0C145A;
 }
 
 @media screen and (max-width: 1100px) {
@@ -104,7 +127,6 @@
     position: absolute;
     width: 290px;
     min-height: 100vh;
-    padding: 30px;
   }
   
   .humburger-wrapper {
@@ -122,7 +144,7 @@
 
 @media screen and (max-height: 820px) {
   .nav-wrapper {
-    height: 350px;
+    height: 320px;
     z-index: 1;
     overflow-y: auto;
   }
@@ -130,14 +152,14 @@
 
 @media screen and (max-height: 750px) {
   .nav-wrapper {
-    height: 300px;
+    height: 270px;
   }
 }
 
 
 @media screen and (max-height: 700px) {
   .nav-wrapper {
-    height: 250px;
+    height: 220px;
   }
 }
 
@@ -150,18 +172,18 @@
 
 @media screen and (max-height: 650px) {
   .nav-wrapper {
-    height: 200px;
+    height: 170px;
   }
 }
 
 @media screen and (max-height: 600px) {
   .nav-wrapper {
-    height: 150px;
+    height: 120px;
   }
 }
 
 @media screen and (max-height: 550px) {
   .nav-wrapper {
-    height: 100px;
+    height: 70px;
   }
 }

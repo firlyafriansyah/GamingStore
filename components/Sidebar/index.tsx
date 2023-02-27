@@ -36,12 +36,18 @@ export default function Sidebar(props: SidebarProps) {
           <NavMemberPage href='/member' logo={`/Logo/setting${selected === 'setting' ? '_active' : ''}_icon.svg`} title="Settings" selected={selected === 'setting'} />
           <NavMemberPage href='/member' logo={`/Logo/logout${selected === 'logout' ? '_active' : ''}_icon.svg`} title="Log Out" selected={selected === 'logout'} />
         </div>
-        <div className={styles['button-wrapper']}>
-          <CustomButton width="100%" text="Top Up" height={45} color="#FFFFFF" navigation="/games"/>
+        <div className={styles['topup-wrapper']}>
+          <div className={styles['topup-content']}>
+            <div className={styles['topup-image-wrapper']}>
+              <Image className={styles['topup-image']} src="/Logo/topup_icon.svg" fill sizes="(max-width: 1100px) 100%, (max-width: 800px) 100%, 100%" alt="Topup Image" />
+            </div>
+            <p className={styles['topup-text']}>Top Up & Be The Winner</p>
+          </div>
+          <CustomButton width="100%" text="Top Up" fontSize="11.16px" height={31} color="#FFFFFF" navigation="/games"/>
         </div>
       </div>
       {/* mobile sidebar */}
-      <div className={styles['container-mobile']} style={{width: `${showSidebar ? '290px' : '0px'}`, padding: `${showSidebar ? '30px' : '30px 0px'}`}} >
+      <div className={styles['container-mobile']} style={{width: `${showSidebar ? '290px' : '0px'}`}} >
         <div className={styles['profile-wrapper']}>
           <div className={styles['profile-image-wrapper']}>
             <Image className={styles['profile-image']} src="/Banner/ri_profile.png" fill sizes="(max-width: 1100px) 92%, (max-width: 800px) 95%, 90%" alt="Image Profile" priority />
@@ -58,8 +64,14 @@ export default function Sidebar(props: SidebarProps) {
           <NavMemberPage href='/member' logo={`/Logo/setting${selected === 'setting' ? '_active' : ''}_icon.svg`} title="Settings" selected={selected === 'setting'} />
           <NavMemberPage href='/member' logo={`/Logo/logout${selected === 'logout' ? '_active' : ''}_icon.svg`} title="Log Out" selected={selected === 'logout'} />
         </div>
-        <div className={styles['button-wrapper']}>
-          <CustomButton width="100%" text="Top Up" height={45} color="#FFFFFF" navigation="/games"/>
+        <div className={styles['topup-wrapper']}>
+          <div className={styles['topup-content']}>
+            <div className={styles['topup-image-wrapper']}>
+              <Image className={styles['topup-image']} src="/Logo/topup_icon.svg" fill sizes="(max-width: 1100px) 100%, (max-width: 800px) 100%, 100%" alt="Topup Image" />
+            </div>
+            <p className={styles['topup-text']}>Top Up & Be The Winner</p>
+          </div>
+          <CustomButton width="100%" text="Top Up" fontSize="11.16px" height={31} color="#FFFFFF" navigation="/games"/>
         </div>
       </div>
     </>

@@ -2,7 +2,6 @@ import CategoryCard from '@/components/basic_components/CategoryCard';
 import ItemTable from '@/components/basic_components/ItemTable';
 import MemberPageLayout from "@/layout/MemberPage";
 import styles from '@/styles/pages/memberoverview.module.css';
-import Image from 'next/image';
 
 export default function MemberOverview() {
   return (
@@ -40,13 +39,6 @@ export default function MemberOverview() {
           </div>
         </div>
       </MemberPageLayout>
-      <div className='warning'>
-        <div className='image-warning-wrapper'>
-          <Image src="/Logo/info_icon.svg" fill sizes="(max-width: 1100px) 100%, (max-width: 800px) 100%, 100%" alt="Information Icon" />
-        </div>
-        <p className='warning-title'>Sorry!</p>
-        <p className='warning-information'>Your device height is not capable to displaying this webpage.</p>
-      </div>
     </>
   )
 }

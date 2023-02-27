@@ -13,7 +13,7 @@ export default function NavMemberPage(props: NavMemberPageProps) {
   const { logo, title, selected = false, href } = props
 
   return (
-    <Link className={styles.container} href={href}>
+    <Link className={styles.container} style={{borderColor: selected ? '#00BAFF' : '#FFFFFF'}} href={href}>
       <div className={styles['icon-wrapper']}>
         <Image className={styles['icon']} src={logo} fill alt="Icon Sidebar" />
       </div>
