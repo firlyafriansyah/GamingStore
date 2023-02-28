@@ -1,0 +1,32 @@
+.container {
+  background-color: #E7EAF5;
+  width: 112px;
+  height: 40px;
+  border-radius: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 18px 18px 0px ;
+  cursor: pointer;
+}
+
+.container-active {
+  background-color: #2B2467;
+  width: 112px;
+  height: 40px;
+  border-radius: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 18px;
+}
+
+.text {
+  font-size: 14.4px;
+  color: #0C145A;
+}
+
+.text-active {
+  font-size: 14.4px;
+  color: #FFFFFF;
+}
