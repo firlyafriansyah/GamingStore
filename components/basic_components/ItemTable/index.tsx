@@ -9,7 +9,7 @@ interface ItemTableProps {
   transactionItem: string,
   transactionPrice: string,
   transactionStatus: string,
-  navigation: string,
+  navigation?: string,
 }
 
 export default function ItemTable(props: ItemTableProps) {

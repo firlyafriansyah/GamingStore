@@ -29,11 +29,11 @@ export default function MemberOverview() {
                 <p className={styles['table-head']}>Status</p>
               </div>
               <div>
-                <ItemTable gameImage='/Illustration/game_card_1.png' gameName='Mobile Legends: Bang Bang' gamePlatform='Mobile' transactionItem='250 Gold' transactionPrice='450.000' transactionStatus='Pending' actionShow={false} />
-                <ItemTable gameImage='/Illustration/game_card_2.png' gameName='Call of Duty: Modern' gamePlatform='Desktop' transactionItem='550 Gold' transactionPrice='750.000' transactionStatus='Success' actionShow={false} />
-                <ItemTable gameImage='/Illustration/game_card_3.png' gameName='Clash of Clans' gamePlatform='Mobile' transactionItem='2550 Gold' transactionPrice='2.550.000' transactionStatus='Failed' actionShow={false} />
-                <ItemTable gameImage='/Illustration/game_card_1.png' gameName='Valorant' gamePlatform='Desktop' transactionItem='1250 Gold' transactionPrice='1.450.000' transactionStatus='Success' actionShow={false} />
-                <ItemTable gameImage='/Illustration/game_card_3.png' gameName='Super Mecha' gamePlatform='Mobile' transactionItem='5500 Gold' transactionPrice='4.450.000' transactionStatus='Success' actionShow={false} />
+                <ItemTable gameImage='/Illustration/game_card_1.png' gameName='Mobile Legends: Bang Bang' gamePlatform='Mobile' transactionItem='250 Gold' transactionPrice='450.000' transactionStatus='Pending' />
+                <ItemTable gameImage='/Illustration/game_card_2.png' gameName='Call of Duty: Modern' gamePlatform='Desktop' transactionItem='550 Gold' transactionPrice='750.000' transactionStatus='Success' />
+                <ItemTable gameImage='/Illustration/game_card_3.png' gameName='Clash of Clans' gamePlatform='Mobile' transactionItem='2550 Gold' transactionPrice='2.550.000' transactionStatus='Failed' />
+                <ItemTable gameImage='/Illustration/game_card_1.png' gameName='Valorant' gamePlatform='Desktop' transactionItem='1250 Gold' transactionPrice='1.450.000' transactionStatus='Success' />
+                <ItemTable gameImage='/Illustration/game_card_3.png' gameName='Super Mecha' gamePlatform='Mobile' transactionItem='5500 Gold' transactionPrice='4.450.000' transactionStatus='Success' />
               </div>
             </div>
           </div>
