@@ -1,0 +1,20 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.transactions-name {
+  color: #0C145A;
+}
+
+.transactions-result {
+  font-weight: 500;
+  color: #0C145A;
+}
+
+.transactions-mark {
+  font-weight: 600;
+  color: #4D17E2;
+}

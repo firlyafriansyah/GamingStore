@@ -9,11 +9,11 @@ interface ItemTableProps {
   transactionItem: string,
   transactionPrice: string,
   transactionStatus: string,
-  actionShow: boolean
+  navigation: string,
 }
 
 export default function ItemTable(props: ItemTableProps) {
-  const { gameImage, gameName, gamePlatform, transactionItem, transactionPrice, transactionStatus, actionShow } = props
+  const { gameImage, gameName, gamePlatform, transactionItem, transactionPrice, transactionStatus, navigation = 'none' } = props
 
   return (
     <div className={styles.container}>
@@ -39,9 +39,9 @@ export default function ItemTable(props: ItemTableProps) {
         <p className={styles.dot} style={{color: `${transactionStatus === 'Pending' ? '#FEBD57' : transactionStatus === 'Success' ? '#1ABC9C' : '#FE5761'}`}}>•</p>
         <p className={styles['status-text']}>{transactionStatus}</p>
       </div>
-      <div className={styles.gap} style={{display: actionShow ? 'block' : 'none'}} />
-      <div className={styles['action-wrapper']} style={{display: actionShow ? 'block' : 'none'}}>
-        <CustomButton text='Details' width='110px' height={40} color='#0C145A' bgColor='#E7EAF5' fontSize='14.4px' />
+      <div className={styles.gap} style={{display: navigation === 'none' ? 'none' : 'block'}} />
+      <div className={styles['action-wrapper']} style={{display: navigation == 'none' ? 'none' : 'block'}}>
+        <CustomButton text='Details' width='110px' height={40} color='#0C145A' bgColor='#E7EAF5' fontSize='14.4px' navigation={navigation} />
       </div>
     </div>
   )

@@ -34,11 +34,11 @@ export default function Transactions() {
               <p className={styles['table-head']}>Action</p>
             </div>
             <div>
-              <ItemTable gameImage='/Illustration/game_card_1.png' gameName='Mobile Legends: Bang Bang' gamePlatform='Mobile' transactionItem='250 Gold' transactionPrice='450.000' transactionStatus='Pending' actionShow />
-              <ItemTable gameImage='/Illustration/game_card_2.png' gameName='Call of Duty: Modern' gamePlatform='Desktop' transactionItem='550 Gold' transactionPrice='750.000' transactionStatus='Success' actionShow />
-              <ItemTable gameImage='/Illustration/game_card_3.png' gameName='Clash of Clans' gamePlatform='Mobile' transactionItem='2550 Gold' transactionPrice='2.550.000' transactionStatus='Failed' actionShow />
-              <ItemTable gameImage='/Illustration/game_card_1.png' gameName='Valorant' gamePlatform='Desktop' transactionItem='1250 Gold' transactionPrice='1.450.000' transactionStatus='Success' actionShow />
-              <ItemTable gameImage='/Illustration/game_card_3.png' gameName='Super Mecha' gamePlatform='Mobile' transactionItem='5500 Gold' transactionPrice='4.450.000' transactionStatus='Success' actionShow />
+              <ItemTable gameImage='/Illustration/game_card_1.png' gameName='Mobile Legends: Bang Bang' gamePlatform='Mobile' transactionItem='250 Gold' transactionPrice='450.000' transactionStatus='Pending' navigation='/member/transactions/GG001' />
+              <ItemTable gameImage='/Illustration/game_card_2.png' gameName='Call of Duty: Modern' gamePlatform='Desktop' transactionItem='550 Gold' transactionPrice='750.000' transactionStatus='Success' navigation='/member/transactions/GG002' />
+              <ItemTable gameImage='/Illustration/game_card_3.png' gameName='Clash of Clans' gamePlatform='Mobile' transactionItem='2550 Gold' transactionPrice='2.550.000' transactionStatus='Failed' navigation='/member/transactions/GG003' />
+              <ItemTable gameImage='/Illustration/game_card_1.png' gameName='Valorant' gamePlatform='Desktop' transactionItem='1250 Gold' transactionPrice='1.450.000' transactionStatus='Success' navigation='/member/transactions/GG004' />
+              <ItemTable gameImage='/Illustration/game_card_3.png' gameName='Super Mecha' gamePlatform='Mobile' transactionItem='5500 Gold' transactionPrice='4.450.000' transactionStatus='Success' navigation='/member/transactions/GG005' />
             </div>
           </div>
         </div>

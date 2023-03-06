@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.gap {
+  min-width: 290px;
+}
+
+.wrapper {
+  padding: 50px;
+  display: grid;
+  width: 100%;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0C145A;
+  margin-bottom: 30px;
+}
+
+.detail-wrapper {
+  background-color: #FFFFFF;
+  max-width: 860px;
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.game-description-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.game-description {
+  display: flex;
+  align-items: center;
+}
+
+.game-image {
+  position: relative;
+  width: 200px;
+  height: 130px;
+  border-radius: 26px;
+  margin-right: 20px;
+}
+
+.image {
+  object-fit: cover;
+  border-radius: 26px;
+}
+
+.game-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0C145A;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.game-platform {
+  font-size: 16px;
+  color: #7E8CAC;
+}
+
+.line {
+  margin: 30px 0px;
+}
+
+.transactions-detail-wrapper {
+  margin-bottom: 50px;
+}
+
+.transactions-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0C145A;
+  margin-bottom: 20px;
+}
+
+.transactions-detail {
+  width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+  .wrapper {
+    padding: 120px 50px 50px;
+  }
+
+  .detail-wrapper {
+    max-width: 100%;
+  }
+
+  .gap {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .wrapper {
+    padding: 80px 30px 30px;
+  }
+
+  .title {
+    margin: 10px 0px;
+  }
+
+  .game-image {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .detail-wrapper {
+    overflow-x: scroll;
+  }
+
+  .game-description-wrapper {
+    min-width: 490px;
+  }
+
+  .line {
+    min-width: 490px;
+  }
+
+  .transactions-detail {
+    min-width: 490px;
+  }
+  
+  .transactions-title {
+    min-width: 490px;
+  }
+}
